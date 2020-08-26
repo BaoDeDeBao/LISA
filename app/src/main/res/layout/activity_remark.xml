@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemarkActivity">
+
+    <Button
+        android:id="@+id/buttonCustomer"
+        android:layout_width="160dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorWhite"
+        android:text="@string/CustomerText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPurpose"
+        android:layout_width="160dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:background="@color/colorWhite"
+        android:text="@string/PurposeText"
+        app:layout_constraintStart_toEndOf="@+id/buttonCustomer"
+        app:layout_constraintTop_toTopOf="@+id/buttonCustomer" />
+
+    <Button
+        android:id="@+id/buttonRemarks"
+        android:layout_width="160dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:background="@color/colorWhite"
+        android:text="@string/RemarksText"
+        app:layout_constraintStart_toEndOf="@+id/buttonPurpose"
+        app:layout_constraintTop_toTopOf="@+id/buttonPurpose" />
+
+    <EditText
+        android:id="@+id/editTextremarks"
+        android:layout_width="840dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPurpose" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="160dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="676dp"
+        android:layout_marginLeft="676dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:text="@string/SubmitText"
+        app:layout_constraintStart_toStartOf="@+id/editTextremarks"
+        app:layout_constraintTop_toBottomOf="@+id/editTextremarks" />
+</androidx.constraintlayout.widget.ConstraintLayout>

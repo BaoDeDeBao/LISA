@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlavourActivity">
+
+    <Button
+        android:id="@+id/buttonAddWhitebait"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorWhite"
+        android:text="@string/ButtonAdd"
+        app:layout_constraintStart_toEndOf="@+id/buttonMinusWhitebaitQ"
+        app:layout_constraintTop_toTopOf="@+id/buttonMinusWhitebaitQ" />
+
+    <Button
+        android:id="@+id/buttonAddSG"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorWhite"
+        android:text="@string/ButtonAdd"
+        app:layout_constraintStart_toEndOf="@+id/buttonMinusSGQ"
+        app:layout_constraintTop_toTopOf="@+id/buttonMinusSGQ" />
+
+    <Button
+        android:id="@+id/buttonAddSH"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorWhite"
+        android:text="@string/ButtonAdd"
+        app:layout_constraintStart_toEndOf="@+id/buttonMinusSHQ"
+        app:layout_constraintTop_toTopOf="@+id/buttonMinusSHQ" />
+
+    <Button
+        android:id="@+id/buttonAddShrimp"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorWhite"
+        android:text="@string/ButtonAdd"
+        app:layout_constraintStart_toEndOf="@+id/buttonMinusShrimpQ"
+        app:layout_constraintTop_toTopOf="@+id/buttonMinusShrimpQ" />
+
+    <TextView
+        android:id="@+id/textViewLot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LotText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:text="@string/OuantityText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toEndOf="@+id/textViewLot"
+        app:layout_constraintTop_toTopOf="@+id/textViewLot" />
+
+    <TextView
+        android:id="@+id/textViewOriginal"
+        android:layout_width="108dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:text="@string/OriginalText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintEnd_toStartOf="@+id/editTextOriginal"
+        app:layout_constraintTop_toTopOf="@+id/editTextOriginal" />
+
+    <EditText
+        android:id="@+id/editTextOriginal"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewLot"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLot" />
+
+    <TextView
+        android:id="@+id/textViewSuperHot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/SuperHotText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintEnd_toStartOf="@+id/editTextSuperHot"
+        app:layout_constraintTop_toTopOf="@+id/editTextSuperHot" />
+
+    <TextView
+        android:id="@+id/textViewShrimp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/ShrimpText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintEnd_toStartOf="@+id/editTextShrimp"
+        app:layout_constraintTop_toTopOf="@+id/editTextShrimp" />
+
+    <TextView
+        android:id="@+id/textViewWhitebait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:text="@string/WhitebaitText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintEnd_toStartOf="@+id/editTextWhitebait"
+        app:layout_constraintTop_toTopOf="@+id/editTextWhitebait" />
+
+    <TextView
+        android:id="@+id/textViewSpicyGarlic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/SpicyGarlicText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintEnd_toStartOf="@+id/editTextSpicyGarlic"
+        app:layout_constraintTop_toTopOf="@+id/editTextSpicyGarlic" />
+
+    <EditText
+        android:id="@+id/editTextSuperHot"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextOriginal"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOriginal" />
+
+    <EditText
+        android:id="@+id/editTextShrimp"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextSuperHot"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSuperHot" />
+
+    <EditText
+        android:id="@+id/editTextWhitebait"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextShrimp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextShrimp" />
+
+    <EditText
+        android:id="@+id/editTextSpicyGarlic"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextWhitebait"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWhitebait" />
+
+    <Button
+        android:id="@+id/buttonPlusOriQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonPlus"
+        app:layout_constraintEnd_toStartOf="@+id/editTextQOri"
+        app:layout_constraintTop_toTopOf="@+id/editTextQOri" />
+
+    <EditText
+        android:id="@+id/editTextQOri"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewQuantity"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuantity" />
+
+    <Button
+        android:id="@+id/buttonMinusOriQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonMinus"
+        app:layout_constraintStart_toEndOf="@+id/editTextQOri"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuantity" />
+
+    <Button
+        android:id="@+id/buttonPlusSHQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonPlus"
+        app:layout_constraintEnd_toStartOf="@+id/editTextQSH"
+        app:layout_constraintTop_toTopOf="@+id/editTextQSH" />
+
+    <EditText
+        android:id="@+id/editTextQSH"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextQOri"
+        app:layout_constraintTop_toBottomOf="@+id/editTextQOri" />
+
+    <Button
+        android:id="@+id/buttonMinusSHQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonMinus"
+        app:layout_constraintStart_toEndOf="@+id/editTextQSH"
+        app:layout_constraintTop_toTopOf="@+id/editTextQSH" />
+
+    <Button
+        android:id="@+id/buttonPlusShrimpQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonPlus"
+        app:layout_constraintEnd_toStartOf="@+id/editTextQShrimp"
+        app:layout_constraintTop_toTopOf="@+id/editTextQShrimp" />
+
+    <EditText
+        android:id="@+id/editTextQShrimp"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextQSH"
+        app:layout_constraintTop_toBottomOf="@+id/editTextQSH" />
+
+    <Button
+        android:id="@+id/buttonMinusShrimpQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonMinus"
+        app:layout_constraintStart_toEndOf="@+id/editTextQShrimp"
+        app:layout_constraintTop_toTopOf="@+id/editTextQShrimp" />
+
+    <Button
+        android:id="@+id/buttonPlusWhitebaitQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonPlus"
+        app:layout_constraintEnd_toStartOf="@+id/editTextQWhitebait"
+        app:layout_constraintTop_toTopOf="@+id/editTextQWhitebait" />
+
+    <EditText
+        android:id="@+id/editTextQWhitebait"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextQShrimp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextQShrimp" />
+
+    <Button
+        android:id="@+id/buttonMinusWhitebaitQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonMinus"
+        app:layout_constraintStart_toEndOf="@+id/editTextQWhitebait"
+        app:layout_constraintTop_toTopOf="@+id/editTextQWhitebait" />
+
+    <Button
+        android:id="@+id/buttonPlusSGQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonPlus"
+        app:layout_constraintEnd_toStartOf="@+id/editTextQSG"
+        app:layout_constraintTop_toTopOf="@+id/editTextQSG" />
+
+    <EditText
+        android:id="@+id/editTextQSG"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextQWhitebait"
+        app:layout_constraintTop_toBottomOf="@+id/editTextQWhitebait" />
+
+    <Button
+        android:id="@+id/buttonMinusSGQ"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorBtnPlusMinus"
+        android:text="@string/ButtonMinus"
+        app:layout_constraintStart_toEndOf="@+id/editTextQSG"
+        app:layout_constraintTop_toTopOf="@+id/editTextQSG" />
+
+    <Button
+        android:id="@+id/buttonAddOri"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@color/colorWhite"
+        android:text="@string/ButtonAdd"
+        app:layout_constraintStart_toEndOf="@+id/buttonMinusOriQ"
+        app:layout_constraintTop_toTopOf="@+id/buttonMinusOriQ" />
+</androidx.constraintlayout.widget.ConstraintLayout>

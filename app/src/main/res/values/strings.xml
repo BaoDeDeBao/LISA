@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LISA</string>
+    <string name="TitleInventoryStock">Stock In / Stock Out</string>
+    <string name="LotText">Lot#</string>
+    <string name="OuantityText">Quantity</string>
+    <string name="OriginalText">Original</string>
+    <string name="SuperHotText">Super Hot</string>
+    <string name="ShrimpText">Shrimp</string>
+    <string name="WhitebaitText">Whitebait</string>
+    <string name="SpicyGarlicText">Spicy Garlic</string>
+
+    <string name="ButtonPlus">+</string>
+    <string name="ButtonMinus">-</string>
+    <string name="ButtonAdd">ADD</string>
+
+    <string name="OtherText">Other</string>
+    <string name="CustomerText">Customer</string>
+    <string name="PurposeText">Purpose</string>
+    <string name="RemarksText">Remarks</string>
+    <string name="SubmitText">SUBMIT</string>
+
+    <string name="TitleInventoryForecast">Inventory Forecast</string>
+    <string name="TitlePreProductionRecord">Pre-Production Record</string>
+    <string name="TitleProductionRecord">Production Record</string>
+    <string name="TitleMaterialInventory">Material Inventory Record</string>
+    <string name="TitleProductionRecipe">Production Recipe</string>
+
+    <string name="TitleFlavor">Flavor</string>
+    <string name="MixingRecordText">Mixing Record #</string>
+    <string name="WeightText">Weight</string>
+    <string name="SaltText">Salt</string>
+    <string name="PowderText">Powder</string>
+    <string name="SugarText">Sugar</string>
+    <string name="GarlicText">Garlic</string>
+    <string name="OilText">Oil</string>
+    <string name="TempeText">Temperature between 95 – 100’C</string>
+</resources>

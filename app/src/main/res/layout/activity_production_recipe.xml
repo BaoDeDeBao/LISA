@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ProductionRecipeActivity">
+
+    <TextView
+        android:id="@+id/textViewStockDT"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="1-6-2020  10:00 am"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/editTextFlavor"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductionRecipeTitle" />
+
+    <EditText
+        android:id="@+id/editTextFlavor3"
+        android:layout_width="121dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:background="@color/colorLightBlue"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/tvMixingRecord"
+        app:layout_constraintTop_toTopOf="@+id/tvMixingRecord"
+        tools:text="3" />
+
+    <EditText
+        android:id="@+id/editTextFlavor2"
+        android:layout_width="121dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:background="@color/colorOtherField"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewQuan"
+        app:layout_constraintTop_toTopOf="@+id/textViewQuan" />
+
+    <EditText
+        android:id="@+id/editTextFlavor"
+        android:layout_width="121dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorOtherField"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewFlavor"
+        app:layout_constraintTop_toTopOf="@+id/textViewFlavor" />
+
+    <TextView
+        android:id="@+id/tvProductionRecipeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/TitleProductionRecipe"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_title"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewFlavor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/TitleFlavor"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductionRecipeTitle" />
+
+    <TextView
+        android:id="@+id/textViewQuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/OuantityText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFlavor" />
+
+    <TextView
+        android:id="@+id/tvMixingRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/MixingRecordText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuan" />
+
+    <include
+        layout="@layout/activity_onion_part"
+        android:layout_width="910dp"
+        android:layout_height="888dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFlavor3"
+        tools:layout_editor_absoluteX="-16dp"></include>
+</androidx.constraintlayout.widget.ConstraintLayout>

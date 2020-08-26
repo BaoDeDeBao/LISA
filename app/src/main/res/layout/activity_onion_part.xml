@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnionPartActivity">
+
+    <TextView
+        android:id="@+id/tvWeight22"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight21"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight21" />
+
+    <TextView
+        android:id="@+id/tvWeight21"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="536dp"
+        android:layout_marginLeft="536dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSesameOil" />
+
+    <TextView
+        android:id="@+id/textViewSoySuace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Soy Sauce"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewSesameOil"
+        app:layout_constraintTop_toTopOf="@+id/textViewSesameOil" />
+
+    <TextView
+        android:id="@+id/textViewSesameOil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="544dp"
+        android:layout_marginLeft="544dp"
+        android:layout_marginTop="12dp"
+        android:text="Sesame Oil"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight19" />
+
+    <TextView
+        android:id="@+id/tvWeight20"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight19"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight19" />
+
+    <TextView
+        android:id="@+id/tvWeight19"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight16"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight16" />
+
+    <TextView
+        android:id="@+id/tvWeight18"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/tvWeight17"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight18"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight18" />
+
+    <TextView
+        android:id="@+id/tvWeight16"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight17"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight17" />
+
+    <TextView
+        android:id="@+id/textViewParsley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:text="Parsley"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewSesame"
+        app:layout_constraintTop_toTopOf="@+id/textViewSesame" />
+
+    <TextView
+        android:id="@+id/textViewSesame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:text="Sesame"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewT"
+        app:layout_constraintTop_toTopOf="@+id/textViewT" />
+
+    <TextView
+        android:id="@+id/textViewT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:text="T"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView100"
+        app:layout_constraintTop_toTopOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="24dp"
+        android:text="101"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOil" />
+
+    <TextView
+        android:id="@+id/textViewTempe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="@string/TempeText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toEndOf="@+id/textViewX3"
+        app:layout_constraintTop_toTopOf="@+id/textViewX3" />
+
+    <TextView
+        android:id="@+id/textViewX3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:text="x 3"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight15"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight15" />
+
+    <TextView
+        android:id="@+id/tvWeight15"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/textViewOil"
+        app:layout_constraintTop_toTopOf="@+id/textViewOil" />
+
+    <TextView
+        android:id="@+id/tvWeight14"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight13"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight13" />
+
+    <TextView
+        android:id="@+id/tvWeight13"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight11"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight11" />
+
+    <TextView
+        android:id="@+id/tvWeight11"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewGarlic" />
+
+    <TextView
+        android:id="@+id/textViewOil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/OilText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGarlic" />
+
+    <TextView
+        android:id="@+id/textViewGarlic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="292dp"
+        android:text="@string/GarlicText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewOnion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="184dp"
+        android:text="Onion3"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewOnion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="124dp"
+        android:text="Onion2"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewOnion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="68dp"
+        android:text="Onion1"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWeight12"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight8"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight10" />
+
+    <TextView
+        android:id="@+id/tvWeight9"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight6"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight6" />
+
+    <TextView
+        android:id="@+id/tvWeight10"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight7"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight9" />
+
+    <TextView
+        android:id="@+id/tvWeight8"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight5"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight7" />
+
+    <TextView
+        android:id="@+id/tvWeight7"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight4"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight6" />
+
+    <TextView
+        android:id="@+id/tvWeight6"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight3"
+        app:layout_constraintTop_toTopOf="@+id/tvWeight3" />
+
+    <TextView
+        android:id="@+id/tvWeight5"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight2"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight4" />
+
+    <TextView
+        android:id="@+id/tvWeight4"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight1"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight3" />
+
+    <TextView
+        android:id="@+id/tvWeight3"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSalt" />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWeight" />
+
+    <TextView
+        android:id="@+id/tvWeight2"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight1" />
+
+    <TextView
+        android:id="@+id/tvWeight1"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="15 kg"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight" />
+
+    <TextView
+        android:id="@+id/textViewSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:text="@string/SugarText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toEndOf="@+id/textViewPowder"
+        app:layout_constraintTop_toTopOf="@+id/textViewPowder" />
+
+    <TextView
+        android:id="@+id/textViewPowder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="@string/PowderText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toEndOf="@+id/textViewSalt"
+        app:layout_constraintTop_toTopOf="@+id/textViewSalt" />
+
+    <TextView
+        android:id="@+id/textViewSalt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:text="@string/SaltText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toEndOf="@+id/textViewWeight"
+        app:layout_constraintTop_toTopOf="@+id/textViewWeight" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:text="100"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textViewWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/WeightText"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="137dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="736dp"
+        android:layout_marginLeft="736dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorWhite"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight22" />
+</androidx.constraintlayout.widget.ConstraintLayout>

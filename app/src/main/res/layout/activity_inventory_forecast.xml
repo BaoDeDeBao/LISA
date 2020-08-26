@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".InventoryForecastActivity">
+
+    <TextView
+        android:id="@+id/tvInventoryForecastTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/TitleInventoryForecast"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/front_size_title"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUserIF"
+        android:layout_width="92dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:text="By: Kin Yan"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInventoryForecastTitle" />
+
+    <TextView
+        android:id="@+id/textViewStockDT"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginLeft="248dp"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:text="Date"
+        android:textColor="@color/colorText"
+        app:layout_constraintStart_toEndOf="@+id/textViewUserIF"
+        app:layout_constraintTop_toTopOf="@+id/textViewUserIF" />
+
+    <LinearLayout
+        android:layout_width="884dp"
+        android:layout_height="1064dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserIF">
+
+        <include
+            layout="@layout/activity_flavour_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="594dp"></include>
+
+        <include
+            layout="@layout/activity_other"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"></include>
+
+        <include
+            layout="@layout/activity_remark"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"></include>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

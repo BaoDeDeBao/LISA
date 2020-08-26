@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductionRecordActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/TitleProductionRecord"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="970dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtTxtFlavor"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="248dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtQuantity"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="248dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtTxtMixingRound"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="740dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtSesameOil"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtSoySauce"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="290dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtChiaSeed"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="338dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtTxtOil"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="487dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtOnion"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="536dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtGarlic"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="582dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtShrimp"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="172dp"
+            android:layout_marginTop="629dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtOil2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="438dp"
+            android:layout_marginTop="487dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtOnion2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="438dp"
+            android:layout_marginTop="536dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtGarlic2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="438dp"
+            android:layout_marginTop="582dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtShrimp2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="438dp"
+            android:layout_marginTop="629dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtxtOil3"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="719dp"
+            android:layout_marginTop="487dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtOnion3"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="719dp"
+            android:layout_marginTop="536dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtGarlic3"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="720dp"
+            android:layout_marginTop="582dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtShrimp3"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="719dp"
+            android:layout_marginTop="629dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtTxtTimeStart"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="714dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtTimeMix"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="760dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtTimeEnd"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="805dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtTxtBottles"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="850dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtTimeStart2"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="430dp"
+            android:layout_marginTop="714dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtTimeMix2"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="430dp"
+            android:layout_marginTop="760dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtTxtTimeEnd2"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="430dp"
+            android:layout_marginTop="805dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtBottles2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="430dp"
+            android:layout_marginTop="850dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtTimeStart3"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="730dp"
+            android:layout_marginTop="714dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtTxtTimeMix3"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="730dp"
+            android:layout_marginTop="760dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtTimeEnd3"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="730dp"
+            android:layout_marginTop="805dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtTxtBottles3"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="730dp"
+            android:layout_marginTop="850dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtTxtTotalBottles"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="457dp"
+            android:layout_marginTop="907dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/dateTimePre"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="522dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:text="Date Time"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="110dp"
+            android:text="Flavor"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="160dp"
+            android:text="Quantity"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="513dp"
+            android:layout_marginTop="200dp"
+            android:text="Mixing Round #"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="240dp"
+            android:text="SESAME OIL"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="290dp"
+            android:text="SOY SAUCE"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="338dp"
+            android:text="CHIA SEED"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="96dp"
+            android:layout_marginTop="416dp"
+            android:text="Round #1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="366dp"
+            android:layout_marginTop="415dp"
+            android:text="Round #2"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="653dp"
+            android:layout_marginTop="423dp"
+            android:text="Round #3"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="493dp"
+            android:text="1. Oil"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtOil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="237dp"
+            android:layout_marginTop="491dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="539dp"
+            android:text="2. Onion"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtOnion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="237dp"
+            android:layout_marginTop="537dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="584dp"
+            android:text="3. Garlic"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtGarlic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="238dp"
+            android:layout_marginTop="583dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="626dp"
+            android:text="4. Shrimp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtShrimp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="238dp"
+            android:layout_marginTop="635dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="327dp"
+            android:layout_marginTop="487dp"
+            android:text="1. Oil"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtOil2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="502dp"
+            android:layout_marginTop="487dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="327dp"
+            android:layout_marginTop="536dp"
+            android:text="2. Onion"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtOnion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="504dp"
+            android:layout_marginTop="536dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="327dp"
+            android:layout_marginTop="582dp"
+            android:text="3. Garlic"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtGarlic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="505dp"
+            android:layout_marginTop="582dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="327dp"
+            android:layout_marginTop="629dp"
+            android:text="4. Shrimp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtShrimp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="504dp"
+            android:layout_marginTop="629dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="616dp"
+            android:layout_marginTop="487dp"
+            android:text="1. Oil"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="613dp"
+            android:layout_marginTop="536dp"
+            android:text="2. Onion"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="613dp"
+            android:layout_marginTop="582dp"
+            android:text="3. Garlic"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="613dp"
+            android:layout_marginTop="629dp"
+            android:text="4. Shrimp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtOil3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="789dp"
+            android:layout_marginTop="487dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtOnion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="790dp"
+            android:layout_marginTop="536dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtGarlic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="785dp"
+            android:layout_marginTop="582dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtShrimp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="790dp"
+            android:layout_marginTop="629dp"
+            android:text="kg"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtTimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="719dp"
+            android:text="Time Start"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtTimeMix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="763dp"
+            android:text="Time Mix"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="806dp"
+            android:text="Time End"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtBottles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="849dp"
+            android:text="Bottles"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTimeStart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="714dp"
+            android:text="Time Start"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTimeMix2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="760dp"
+            android:text="Time Mix"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTimeEnd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="805dp"
+            android:text="Time End"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtBottles2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="850dp"
+            android:text="Bottles"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTimeStart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="610dp"
+            android:layout_marginTop="714dp"
+            android:text="Time Start"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTimeMix3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="610dp"
+            android:layout_marginTop="760dp"
+            android:text="Time Mix"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTimeEnd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="610dp"
+            android:layout_marginTop="805dp"
+            android:text="Time End"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtBottles3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="610dp"
+            android:layout_marginTop="850dp"
+            android:text="Bottles"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtTotalBottles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="303dp"
+            android:layout_marginTop="910dp"
+            android:text="Total Bottles"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="135dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="680dp"
+            android:background="@drawable/rectinputtxtt"
+            android:text="Submit"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="203dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="380dp"
+            android:background="@drawable/rectinputtxtt"
+            android:gravity="center"
+            android:text="User"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
